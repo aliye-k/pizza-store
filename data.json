@@ -1,0 +1,465 @@
+[
+      {
+        "id": 1,
+        "name": "Pizza Marinara",
+        "price": "23.95",
+        "description": "A type of Neapolitan Pizza featuring tomatoes, garlic, oregano, and extra virgin olive  ",
+        "category": {
+          "vegetarian": true
+        },
+        "toppings": [
+          {
+            "name": "Oregano",
+            "description": "FRESH OREGANO",
+          },
+          {
+            "name": "Extra Virgin Olive Oil",
+            "description": "QUALITY MEDITERANIAN OLIVE OIL",
+          },
+          {
+            "name": "Roasted Garlic",
+            "description": "PEELED GARLIC, CANOLA OIL",
+          },
+          {
+            "name": "Tomato Sauce",
+            "description": "VINE-RIPENED TOMATOES, FRESH BASIL LEAF, SALT, CALCIUM CHLORIDE, NATURALLY DERIVED CITRIC ACID, EXTRA VIRGIN OLIVE OIL, SEA SALT",
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "The O.G.",
+        "price": "16.95",
+        "description": "The Margherita—with California flair",
+        "category": {
+          "vegetarian": true
+        },
+        "toppings": [
+          {
+            "name": "Basil",
+            "description": "FRESH BASIL"
+          },
+          {
+            "name": "Mozzarella",
+            "description": "PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES"
+          },
+          {
+            "name": "Oregano",
+            "description": "FRESH OREGANO"
+          },
+          {
+            "name": "Tomato Sauce",
+            "description": "VINE-RIPENED TOMATOES, FRESH BASIL LEAF, SALT, CALCIUM CHLORIDE, NATURALLY DERIVED CITRIC ACID, EXTRA VIRGIN OLIVE OIL, SEA SALT"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Chicago Pizza",
+        "price": "23.95",
+        "description": "Chicago pizza, also commonly referred to as deep-dish pizza, gets its name from the city it was invented in. During the early 1900’s, Italian immigrants in the windy city were searching for something similar to the Neapolitan pizza that they knew and loved. Instead of imitating the notoriously thin pie, Ike Sewell had something else in mind. He created a pizza with a thick crust that had raised edges, similar to a pie, and ingredients in reverse, with slices of mozzarella lining the dough followed by meat, vegetables, and then topped with a can of crushed tomatoes. This original creation led Sewell to create the now famous chain restaurant, Pizzeria Uno",
+        "category": {
+          "vegetarian": false
+        },
+        "toppings": [
+          {
+            "name": "Ground Beef",
+            "description": "DELICIOUS GROUND BEEF",
+          },
+          {
+            "name": "Pepperoni",
+            "description": "DELICIOUS PEPPERONI",
+          },
+          {
+            "name": "Onion",
+            "description": "FRESH ONION",
+          },
+          {
+            "name": "Mushrooms",
+            "description": "FRESH MUSHROOMS",
+          },
+          {
+            "name": "Green Peppers",
+            "description": "FRESH GREEN PEPPERS",
+          },
+          {
+            "name": "Tomato Sauce",
+            "description": "SALT, CALCIUM CHLORIDE, NATURALLY DERIVED CITRIC ACID, EXTRA VIRGIN OLIVE OIL, SEA SALT",
+          },
+          {
+            "name": "Parmesan cheese",
+            "description": "DELICIOUS PARMESAN CHEESE",
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Pizza Margherita Extra",
+        "price": "23.95",
+        "description": "A type of Neapolitan Pizza featuring tomatoes, mozzarella from Campania, basil, and extra virgin olive oil",
+        "category": {
+          "vegetarian": true
+        },
+        "toppings": [
+          {
+            "name": "Tomato pieces",
+            "description": "FRESH TOMATO",
+          },
+
+          {
+            "name": "Sliceed Mozzarella From Campania",
+            "description": "SLICED MOZZARELLA PIECES",
+          },
+
+          {
+            "name": "Basil",
+            "description": "FRESH BASIL",
+          },
+
+          {
+            "name": "Extra Virgin Olive Oil",
+            "description": "QUALITY MEDITERANIAN OLIVE OIL",
+          },
+          {
+            "name": "Tomato Sauce",
+            "description": "VINE-RIPENED TOMATOES, FRESH BASIL LEAF, SALT, CALCIUM CHLORIDE, NATURALLY DERIVED CITRIC ACID, EXTRA VIRGIN OLIVE OIL, SEA SALT",
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Vegan Veggie",
+        "price": "23.95",
+        "description": "Daiya vegan mozzarella, paired with fresh veggies",
+        "category": {
+          "vegetarian": true
+        },
+        "toppings": [
+          {
+            "name": "Baby Bell Peppers",
+            "description": "FRESH BABY BELL PEPPERS",
+          },
+          {
+      
+            "name": "Basil",
+            "description": "FRESH BASIL",
+          },
+          {
+        
+            "name": "Daiya Vegan Mozzarella",
+            "description": "FILTERED WATER, TAPIOCA FLOUR, EXPELLER PRESSED NON-GMO CANOLA AND/OR SAFFLOWER OIL, COCONUT OIL, PEA PROTEIN, SALT, VEGAN NATURAL FLAVOURS, INACTIVE YEAST, VEGETABLE GLYCERIN, XANTHAN GUM, CITRIC ACID, TITANIUM DIOXIDE",
+          },
+          {
+    
+            "name": "Kalamata Olives",
+            "description": "KALAMATA OLIVES, WATER, SEA SALT, SUNFLOWER OIL",
+          },
+          {
+    
+            "name": "Oregano",
+            "description": "FRESH OREGANO",
+          },
+          {
+          
+            "name": "Red Onions",
+            "description": "FRESH RED ONIONS",
+          },
+          {
+          
+            "name": "Roasted Garlic",
+            "description": "PEELED GARLIC, CANOLA OIL",
+          },
+          {
+         
+            "name": "Tomato Sauce",
+            "description": "VINE-RIPENED TOMATOES, FRESH BASIL LEAF, SALT, CALCIUM CHLORIDE, NATURALLY DERIVED CITRIC ACID, EXTRA VIRGIN OLIVE OIL, SEA SALT",
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Pizza Margherita",
+        "price": "23.95",
+        "description": "A type of Neapolitan Pizza featuring tomatoes, sliced mozzarella, basil, and extra virgin olive oil",
+        "category": {
+          "vegetarian": true
+        },
+        "toppings": [
+          {
+            "name": "Tomato pieces",
+            "description": "FRESH TOMATO",
+          },
+
+          {
+            "name": "Sliceed Mozzarella",
+            "description": "SLICED MOZZARELLA PIECES",
+          },
+
+          {
+            "name": "Basil",
+            "description": "FRESH BASIL",
+          },
+
+          {
+            "name": "Extra Virgin Olive Oil",
+            "description": "QUALITY MEDITERANIAN OLIVE OIL",
+          },
+          {
+            "name": "Tomato Sauce",
+            "description": "VINE-RIPENED TOMATOES, FRESH BASIL LEAF, SALT, CALCIUM CHLORIDE, NATURALLY DERIVED CITRIC ACID, EXTRA VIRGIN OLIVE OIL, SEA SALT",
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Veggie Zupreme",
+        "price": "19.95",
+        "description": "The freshest, locally sourced veggies",
+        "category": {
+          "vegetarian": true
+        },
+        "toppings": [
+          {
+            "name": "Asiago",
+            "description": "CULTURED MILK, ENZYMES, SALT",
+          },
+          {
+            "name": "Baby Bell Peppers",
+            "description": "FRESH BABY BELL PEPPERS",
+          },
+          {
+            "name": "Basil Chiffonade",
+            "description": "FRESH BASIL CHIFFONADE",
+          },
+          {
+            "name": "Kalamata Olives",
+            "description": "KALAMATA OLIVES, WATER, SEA SALT, SUNFLOWER OIL",
+          },
+          {
+            "name": "Mozzarella",
+            "description": "PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES",
+          },
+          {
+            "name": "Oregano",
+            "description": "FRESH OREGANO",
+          },
+          {
+            "name": "Red Onions",
+            "description": "FRESH RED ONIONS"
+          },
+          {
+
+            "name": "Roasted Garlic",
+            "description": "PEELED GARLIC, CANOLA OIL"
+          },
+          {
+            "name": "Tomato Sauce",
+            "description": "VINE-RIPENED TOMATOES, FRESH BASIL LEAF, SALT, CALCIUM CHLORIDE, NATURALLY DERIVED CITRIC ACID, EXTRA VIRGIN OLIVE OIL, SEA SALT"
+          }
+        ]
+      }
+      ,
+      {
+        "id": 8,
+        "name": "New York-Style Pizza",
+        "price": "19.95",
+        "description": "With its characteristic large, foldable slices and crispy outer crust, New York-style pizza is one of America’s most famous regional pizza types. Originally a variation of Neapolitan-style pizza, the New York slice has taken on a fame all its own, with some saying its unique flavor has to do with the minerals present in New York’s tap water supply",
+        "category": {
+          "vegetarian": false
+        },
+        "toppings": [
+          {
+            "name": "Garlic powder",
+            "description": "DELICIOUS GARLIC POWDER",
+          },
+          {
+            "name": "Parmesan cheese",
+            "description": "YUMMY PARMESAN",
+          },
+        
+          {
+            "name": "Oregano",
+            "description": "FRESH OREGANO",
+          },
+          {
+            "name": "Red pepper flakes",
+            "description": "FLAKY RED PEPPER"
+          },
+          {
+
+            "name": "Anchovies",
+            "description": "DELECIOUS ANCHOVIES"
+          },
+
+          {
+            "name": "Mushrooms",
+            "description": "FRESH MUSHROOMS"
+          },
+          
+          {
+
+            "name": "Sausage",
+            "description": "Yummi Sausage"
+          },
+          
+
+          {
+            "name": "Pepperoni",
+            "description": "Yummi Pepperoni"
+          },
+
+          {
+            "name": "Mozzarella",
+            "description": "PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES",
+          },
+          {
+            "name": "Tomato Sauce",
+            "description": "VINE-RIPENED TOMATOES, FRESH BASIL LEAF, SALT, CALCIUM CHLORIDE, NATURALLY DERIVED CITRIC ACID, EXTRA VIRGIN OLIVE OIL, SEA SALT"
+          }
+        ]
+      }
+      ,
+      {
+        "id": 9,
+        "name": "Sicilian Pizza",
+        "price": "19.95",
+        "description": "Sicilian pizza, also known as 'sfincione,' provides a thick cut of pizza with pillowy dough, a crunchy crust, and robust tomato sauce. This square-cut pizza is served with or without cheese, and often with the cheese underneath the sauce to prevent the pie from becoming soggy. Sicilian pizza was brought to America in the 19th century by Sicilian immigrants and became popular in the United States after the Second World War.",
+        "category": {
+          "vegetarian": false
+        },
+        "toppings": [
+          {
+            "name": "Onion",
+            "description": "FRESH ONION"
+          },
+          {
+            "name": "Anchovies",
+            "description": "DELECIOUS ANCHOVIES"
+          },
+          {
+            "name": "Tomato Sauce",
+            "description": "VINE-RIPENED TOMATOES, FRESH BASIL LEAF, SALT, CALCIUM CHLORIDE, NATURALLY DERIVED CITRIC ACID, EXTRA VIRGIN OLIVE OIL, SEA SALT"
+          }
+        ]
+      }
+      ,
+      {
+        "id": 10,
+        "name": "Greek Pizza",
+        "price": "19.95",
+        "description": "Greek pizza was created by Greek immigrants who came to America and were introduced to Italian pizza. Greek-style pizza, especially popular in the New England states, features a thick and chewy crust cooked in shallow, oiled pans, resulting in a nearly deep-fried bottom. While this style has a crust that is puffier and chewier than thin crust pizzas, it is not quite as thick as a deep-dish or Sicilian crust",
+        "category": {
+          "vegetarian": true
+        },
+        "toppings": [
+            {
+                "name": "Red onion",
+                "description": "RED ONION"
+          },
+          {
+                "name": "Black olives",
+                "description": "BLACK OLIVES"
+          },
+          {
+                "name": "Cheddar cheese",
+                "description": "CHEDDART CHEESE"
+          },
+          {
+            "name": "Feta cheese",
+            "description": "YUMMY FETA CHEESE"
+          },
+          {
+            "name": "Oregano",
+            "description": "FRESH OREGANO"
+          },
+          {
+            "name": "Tomato Sauce",
+            "description": "VINE-RIPENED TOMATOES, FRESH BASIL LEAF, SALT, CALCIUM CHLORIDE, NATURALLY DERIVED CITRIC ACID, EXTRA VIRGIN OLIVE OIL, SEA SALT"
+          }
+        ]
+      }
+      ,
+      {
+        "id": 11,
+        "name": "California Pizza",
+        "price": "19.95",
+        "description": "California pizza, or gourmet pizza, is known for its unusual ingredients. This pizza got its start back in the late 1970’s when Chef Ed LaDou began experimenting with pizza recipes in the classic Italian restaurant, Prego. He created a pizza with mustard, ricotta, pate, and red pepper, and by chance, served it to Wolfgang Puck. Impressed with LaDou’s innovative pie, Puck invited him to be a head pizza chef at his restaurant. It was here that LaDou came up with over 250 unique pizza recipes that eventually formed the menu of the chain restaurant California Pizza Kitchen",
+        "category": {
+          "vegetarian": true
+        },
+        "toppings": [
+            {
+                "name": "Eggs",
+                "description": "BIO EGGS"
+          },
+            {
+                "name": "Goat cheese",
+                "description": "THAT YUMMY GOAT CHEESE"
+          },
+            {
+                "name": "Artichokes",
+                "description": "DELICIOUS ARTICHOKES"
+          },
+          {
+                "name": "Grilled chicken",
+                "description": "YUMMY GRILLED CHICKEN"
+          },
+          {
+                "name": "Red onion",
+                "description": "RED ONION"
+          },
+          {
+                "name": "Black olives",
+                "description": "BLACK OLIVES"
+          },
+          {
+                "name": "Cheddar cheese",
+                "description": "CHEDDART CHEESE"
+          },
+          {
+            "name": "Feta cheese",
+            "description": "YUMMY FETA CHEESE"
+          },
+          {
+            "name": "Oregano",
+            "description": "FRESH OREGANO"
+          },
+          {
+            "name": "Tomato Sauce",
+            "description": "VINE-RIPENED TOMATOES, FRESH BASIL LEAF, SALT, CALCIUM CHLORIDE, NATURALLY DERIVED CITRIC ACID, EXTRA VIRGIN OLIVE OIL, SEA SALT"
+          }
+        ]
+      }
+      ,
+      {
+        "id": 12,
+        "name": "Detroit Pizza",
+        "price": "19.95",
+        "description": "Reflecting the city deep ties to the auto industry, Detroit-style pizza was originally baked in a square automotive parts pan in the 1940s. Detroit pizza is first topped with pepperoni, followed by brick cheese which is spread to the very edges of the pan, yielding a caramelized cheese perimeter. Sauce is then spooned over the pizza, an order similar to Chicago-style pizza. This pizza features a thick, extra crispy crust that is tender and airy on the inside.",
+        "category": {
+          "vegetarian": true
+        },
+        "toppings": [
+          {
+                "name": "Black olives",
+                "description": "BLACK OLIVES"
+          },
+          {
+                "name": "Cheddar cheese",
+                "description": "CHEDDART CHEESE"
+          },
+          {
+            "name": "Mushrooms",
+            "description": "FRESH MUSHROOMS"
+          },
+          {
+            "name": "Pepperoni",
+            "description": "DELICIOUS PEPPERONI"
+          },
+          {
+            "name": "Tomato Sauce",
+            "description": "VINE-RIPENED TOMATOES, FRESH BASIL LEAF, SALT, CALCIUM CHLORIDE, NATURALLY DERIVED CITRIC ACID, EXTRA VIRGIN OLIVE OIL, SEA SALT"
+          }
+        ]
+      }
+]
