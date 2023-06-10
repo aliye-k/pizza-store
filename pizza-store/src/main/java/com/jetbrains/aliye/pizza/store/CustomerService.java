@@ -12,4 +12,16 @@ public class CustomerService {
     public CustomerService(){
         customers = new ArrayList<>();
     }
+
+    public void registerCustomer(Customer customer){
+        customers.add(customer);
+    }
+
+    public Customer loginCustomer(int customerId){
+        for(Customer customer: customers){
+            if(customer.getId() == customerId)
+                return customer;
+        }
+        return null;
+    }
 }

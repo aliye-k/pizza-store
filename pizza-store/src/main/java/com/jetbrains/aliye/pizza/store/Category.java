@@ -7,11 +7,12 @@ public class Category {
         this.vegetarian = vegetarian;
     }
 
-    public boolean isVegetarian() {
+    public boolean getCategory() {
         return vegetarian;
     }
 
-    public void setVegetarian(boolean vegetarian) {
+    public void setCategory(boolean vegetarian) {
         this.vegetarian = vegetarian;
     }
+
 }

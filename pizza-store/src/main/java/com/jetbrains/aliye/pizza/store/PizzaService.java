@@ -7,9 +7,9 @@ import java.util.List;
 
 @Service
 public class PizzaService {
-    private List<Pizza> pizzas;
+    private List<Pizza> pizzaCatalog;
 
-    public PizzaService(){
-        pizzas = new ArrayList<>();
+    public PizzaService() {
+        pizzaCatalog = new ArrayList<>();
     }
 }
