@@ -5,6 +5,7 @@ import java.util.List;
 public class Cart {
     private Customer customer;
     private List<Pizza> pizzas;
+    private double totalPrice = 0.0;
 
     public Cart(Customer customer, List<Pizza> pizzas) {
         this.customer = customer;
@@ -27,4 +28,10 @@ public class Cart {
         this.pizzas = pizzas;
     }
 
+    public double getTotalPrice() {
+        for (Pizza pizza : pizzas) {
+            totalPrice += pizza.getPrice() * pizza.getQuantity();
+        }
+        return totalPrice;
+    }
 }
