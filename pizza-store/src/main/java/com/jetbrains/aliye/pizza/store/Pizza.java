@@ -58,6 +58,7 @@ public class Pizza {
     public void setCategory(Category category) {
         this.category = category;
     }
+
     public List<Topping> getToppings() {
         return toppings;
     }

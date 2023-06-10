@@ -7,7 +7,7 @@ public class Category {
         this.vegetarian = vegetarian;
     }
 
-    public boolean getCategory() {
+    public boolean getIsVegetarian() {
         return vegetarian;
     }
 
