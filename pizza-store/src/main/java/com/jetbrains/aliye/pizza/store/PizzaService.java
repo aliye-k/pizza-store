@@ -7,39 +7,50 @@ import java.util.List;
 
 @Service
 public class PizzaService {
-    private List<Pizza> pizzaCatalog;
+    private final List<Pizza> pizzaCatalog;
+    private final Object pizzaLock = new Object();
 
     public PizzaService() {
-        pizzaCatalog = new ArrayList<>();
+        synchronized (pizzaLock) {
+            pizzaCatalog = new ArrayList<>();
+        }
     }
 
     public void addToCatalog(Pizza pizza) {
-        pizzaCatalog.add(pizza);
+        synchronized (pizzaLock) {
+            pizzaCatalog.add(pizza);
+        }
     }
 
     public List<Pizza> getPizzaCatalog() {
-        return pizzaCatalog;
+        synchronized (pizzaLock) {
+            return pizzaCatalog;
+        }
     }
 
     public List<Pizza> searchByCategory(Category category) {
-        List<Pizza> pizzaByCategory = new ArrayList<>();
-        for (Pizza pizza : pizzaCatalog) {
-            if (pizza.getCategory().getIsVegetarian() == category.getIsVegetarian()) {
-                pizzaByCategory.add(pizza);
+        synchronized (pizzaLock) {
+            List<Pizza> pizzaByCategory = new ArrayList<>();
+            for (Pizza pizza : pizzaCatalog) {
+                if (pizza.getCategory().getIsVegetarian() == category.getIsVegetarian()) {
+                    pizzaByCategory.add(pizza);
+                }
             }
+            return pizzaByCategory;
         }
-        return pizzaByCategory;
     }
 
     public List<Pizza> searchByKeyword(String keyword) {
-        List<Pizza> pizzaByKeyword = new ArrayList<>();
-        for (Pizza pizza : pizzaCatalog) {
-            if (pizza.getName().toLowerCase().contains(keyword.toLowerCase()) ||
-                    pizza.getDescription().toLowerCase().contains(keyword.toLowerCase())) {
-                pizzaByKeyword.add(pizza);
+        synchronized (pizzaLock) {
+            List<Pizza> pizzaByKeyword = new ArrayList<>();
+            for (Pizza pizza : pizzaCatalog) {
+                if (pizza.getName().toLowerCase().contains(keyword.toLowerCase()) ||
+                        pizza.getDescription().toLowerCase().contains(keyword.toLowerCase())) {
+                    pizzaByKeyword.add(pizza);
+                }
             }
+            return pizzaByKeyword;
         }
-        return pizzaByKeyword;
     }
 
 }

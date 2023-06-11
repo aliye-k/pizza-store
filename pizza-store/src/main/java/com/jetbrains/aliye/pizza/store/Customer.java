@@ -6,6 +6,8 @@ public class Customer {
     private String email;
     private String password;
 
+    private boolean isLoggedIn = true;
+
     public Customer(int id, String name, String email, String password){
         this.id = id;
         this.name = name;
@@ -43,5 +45,13 @@ public class Customer {
 
     public void setPassword(String password){
         this.password = password;
+    }
+
+    public boolean getIsLoggedIn(){
+        return isLoggedIn;
+    }
+
+    public void setLoggedIn(boolean loggedIn){
+        this.isLoggedIn = loggedIn;
     }
 }
