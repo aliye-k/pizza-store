@@ -5,6 +5,11 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This class is responsible for managing customer-related operations, such as registering customers,
+ * authenticating login credentials, logging in/out customers, and retrieving customer information.
+ * This class makes uses of synchronisation to cope with sudden surge of demand.
+ */
 @Service
 public class CustomerService {
     private final List<Customer> customers;

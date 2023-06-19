@@ -1,5 +1,8 @@
 package com.jetbrains.aliye.pizza.store;
 
+/**
+ * This class represents a pizza category entity, indicating whether a pizza is vegetarian or not.
+ */
 public class Category {
     private boolean vegetarian;
 

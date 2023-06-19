@@ -2,6 +2,10 @@ package com.jetbrains.aliye.pizza.store;
 
 import java.util.List;
 
+/**
+ * This class represents a cart entity with attributes like customer, pizzas, and total price.
+ * It encapsulates information about a cart.
+ */
 public class Cart {
     private Customer customer;
     private List<Pizza> pizzas;

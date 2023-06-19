@@ -8,9 +8,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
@@ -21,11 +19,12 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.mockito.BDDMockito.given;
-import static org.mockito.Mockito.verify;
-import static org.assertj.core.api.Assertions.assertThat;
-
-@ExtendWith(MockitoExtension.class) // Enable Mockito support for JUnit 5
+/**
+ * This class contains unit tests for the functionality of the PizzaController class.
+ * It uses JUnit and Spring Test Framework to verify the behavior of various endpoints and methods
+ * in the controller.
+ */
+@ExtendWith(MockitoExtension.class)
 @SpringBootTest(classes = {PizzaController.class})
 public class PizzaControllerTest {
 

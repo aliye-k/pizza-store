@@ -2,6 +2,10 @@ package com.jetbrains.aliye.pizza.store;
 
 import java.util.List;
 
+/**
+ * This class represents a pizza entity with attributes like ID, name, price, description, category,
+ * and toppings. It encapsulates information about a pizza.
+ */
 public class Pizza {
     private int id;
     private String name;

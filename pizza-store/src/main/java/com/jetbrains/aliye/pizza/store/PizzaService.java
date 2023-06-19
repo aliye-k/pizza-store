@@ -5,6 +5,11 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This class is responsible for managing pizza-related operations, such as retrieving the pizza catalog,
+ * searching pizzas by category or keyword, and handling pizza-related data.
+ * This class makes uses of synchronisation to cope with sudden surge of demand.
+ */
 @Service
 public class PizzaService {
     private final List<Pizza> pizzaCatalog;

@@ -1,11 +1,14 @@
 package com.jetbrains.aliye.pizza.store;
 
+/**
+ * This class represents a customer entity with attributes like ID, name, username, password,
+ * and whether a customer is logged in. It encapsulates information about a customer.
+ */
 public class Customer {
     private int id;
     private String name;
     private String email;
     private String password;
-
     private boolean isLoggedIn = true;
 
     public Customer(int id, String name, String email, String password){

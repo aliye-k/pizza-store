@@ -5,6 +5,12 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This class is responsible for managing the customer's cart, including adding pizzas to the cart,
+ * removing pizzas from the cart, updating the quantity of pizzas in the cart,
+ * and performing cart checkout.
+ * This class makes uses of synchronisation to cope with sudden surge of demand.
+ */
 @Service
 public class CartService {
    private final List<Cart> carts;
@@ -73,8 +79,6 @@ public class CartService {
             if (cart != null && !cart.getPizzas().isEmpty()) {
                 //Calculate the total price
                 totalPrice = cart.getTotalPrice();
-                //Perform necessary operations for checkout (e.g., update inventory, generate order, etc.)
-
                 //Clear the cart after successful checkout
                 cart.getPizzas().clear();
             }
