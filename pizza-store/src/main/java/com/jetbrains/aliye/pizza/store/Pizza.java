@@ -10,16 +10,15 @@ public class Pizza {
     private Category category;
     private List<Topping> toppings;
 
-    private int quantity;
+    private int quantity = 0;
 
-    public Pizza(int id, String name, double price, String description,  Category category, List<Topping> toppings, int quantity) {
+    public Pizza(int id, String name, double price, String description,  Category category, List<Topping> toppings) {
         this.id = id;
         this.name = name;
         this.price = price;
         this.description = description;
         this.category = category;
         this.toppings = toppings;
-        this.quantity = quantity;
     }
 
     public int getId() {
